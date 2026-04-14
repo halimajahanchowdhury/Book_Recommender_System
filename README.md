@@ -72,6 +72,13 @@ Dataset source (from Kaggle) : https://www.kaggle.com/datasets/arashnic/book-rec
 
 ---
 
+## Screenshots
+
+### Landing Page
+
+### Book Selection & Recommendations
+
+
 ## Project Structure
 
 Book-Recommender-System/

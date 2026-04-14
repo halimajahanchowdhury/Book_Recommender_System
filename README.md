@@ -130,3 +130,10 @@ This project is licensed under the MIT License.
 Inspired by real-world recommender systems used by platforms like Netflix and Amazon.
 
 ---
+
+
+
+## ⚠️⚠️⚠️ Note on Model Files
+
+Due to GitHub file size limits, large model files are not included in this repository.
+

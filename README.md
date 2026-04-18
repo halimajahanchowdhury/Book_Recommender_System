@@ -79,31 +79,47 @@ Dataset source (from Kaggle) : https://www.kaggle.com/datasets/arashnic/book-rec
 |--------------|----------------|-------------|
 | ![](Screenshots/landing_page.png) | ![](Screenshots/book_selection.png) | ![](Screenshots/search_page.png) |
 
+
 ## Project Structure
 
 Book-Recommender-System/
+│
 ├── app.py
 ├── README.md
 ├── requirements.txt
+├── .gitignore
+│
 ├── models/
-│   ├── books.pkl
+│   ├── books.pkl          # (may be downloaded from Drive due to size)
 │   └── similarity.pkl
+│
 ├── notebooks/
 │   └── Book_Recommender.ipynb
+│
 ├── data/
+│
 ├── Screenshots/
-│   ├── home.png
-│   ├── selection.png
-│   └── results.png
+│   ├── landing_page.png
+│   ├── book_selection.png
+│   └── search_page.png
+
+## Installation & Setup
+
+### Prerequisites
+- Python 3.7 or higher  
+- pip (Python package manager)  
 
 ---
 
-##  Installation & Setup
+### Step 1: Clone the Repository
+git clone https://github.com/halimajahanchowdhury/book-recommender-system.git
+cd book-recommender-system
 
-### Prerequisites
+Step 2: Install Dependencies
+pip install -r requirements.txt
 
-* Python 3.9+
-* Git
+Step 3: Run the Application
+streamlit run app.py
 
 ---
 

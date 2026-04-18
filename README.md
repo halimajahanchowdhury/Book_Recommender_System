@@ -79,29 +79,32 @@ Dataset source (from Kaggle) : https://www.kaggle.com/datasets/arashnic/book-rec
 |--------------|----------------|-------------|
 | ![](Screenshots/landing_page.png) | ![](Screenshots/book_selection.png) | ![](Screenshots/search_page.png) |
 
-
-## Project Structure
+---
 
 Book-Recommender-System/
-│
-├── app.py
-├── README.md
-├── requirements.txt
-├── .gitignore
+│── app.py
+│── README.md
+│── requirements.txt
+│── .gitignore
 │
 ├── models/
-│   ├── books.pkl          # (may be downloaded from Drive due to size)
-│   └── similarity.pkl
-│
-├── notebooks/
-│   └── Book_Recommender.ipynb
+│   ├── books.pkl
+│   ├── pt.pkl
+│   ├── popular.pkl
+│   ├── similarity_scores.pkl
 │
 ├── data/
+│   └── dataset (optional/raw files)
 │
-├── Screenshots/
+├── notebooks/
+│   └── book_recommender_analysis.ipynb
+│
+├── screenshots/
 │   ├── landing_page.png
 │   ├── book_selection.png
-│   └── search_page.png
+│   ├── search_page.png
+
+---
 
 ## Installation & Setup
 

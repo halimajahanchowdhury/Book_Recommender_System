@@ -118,10 +118,10 @@ Book-Recommender-System/
 git clone https://github.com/halimajahanchowdhury/book-recommender-system.git
 cd book-recommender-system
 
-Step 2: Install Dependencies
+### Step 2: Install Dependencies
 pip install -r requirements.txt
 
-Step 3: Run the Application
+### Step 3: Run the Application
 streamlit run app.py
 
 ---
